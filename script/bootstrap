@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# See the file README.md in the same directory as this script for
+# documentation.
+#
+
+set -e
+
+if [ $# -ne 0 ]; then
+        echo "Usage: $0"
+        exit 2
+fi
+
+# --- Finished
+exit 0
